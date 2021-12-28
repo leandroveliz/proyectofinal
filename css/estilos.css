@@ -108,7 +108,7 @@ p {
 
 /*********************ESTILOS GENERALES*********************/
 body {
-  background-image: url(/imagen/logo.png);
+  background-image: url(../imagen/logo.png);
   background-position: initial; }
 
 section {
@@ -171,7 +171,11 @@ img {
   bottom: 0;
   width: 100%; }
 
-section {
-  height: 300px; }
-  section article {
-    margin: 1200px; }
+/*$alto:300px;
+
+    section{
+        height: $alto;
+        article{
+            margin: $alto *4;
+        }
+    }*/
