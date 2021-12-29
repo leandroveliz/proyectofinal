@@ -114,7 +114,7 @@ body {
 section {
   display: grid;
   justify-content: center;
-  grid-template-rows: 2fr 2fr; }
+  grid-template-rows: 2fr 2fr 2fr; }
 
 img {
   width: 305px;
@@ -162,7 +162,7 @@ img {
   justify-content: center; }
 
 .separacion {
-  margin: 40px; }
+  margin: 80px; }
 
 .footer {
   grid-area: pie;
