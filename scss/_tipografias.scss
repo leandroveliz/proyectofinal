@@ -5,6 +5,7 @@ h3,li,footer{
 h1{
     font-family: 'Oswald',sans-serif;
     font-size: 10px;
+    
 }
 h2{
     font-family: 'Oswald', sans-serif;
@@ -21,4 +22,8 @@ p{
 .option{
     font-family:'Oswald', sans-serif; 
     color: rgb(29, 51, 175);
+}
+.centrado{
+    display: flex;
+    justify-content: center;
 }
