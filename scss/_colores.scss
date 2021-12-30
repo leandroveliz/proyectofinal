@@ -1,40 +1,44 @@
 /*******************COLORES*******************/
 
 header{      
-    color: rgb(29, 51, 175);
-    background-color: rgba(122, 200, 211, 0.979);
-    background-image: linear-gradient(to top,rgb(68, 209, 214),rgba(4, 100, 156, 0.527) );
+    color:rgb(228, 189, 139);
+    background-color: rgb(226, 182, 125) ;
+    background-image: linear-gradient(to top,rgb(228, 189, 139),rgb(226, 182, 125) );
 }
-
+body{
+    background-image: linear-gradient(to bottom left,rgb(251, 210, 155),rgb(251, 210, 155));
+}
 h2{
-    color:rgb(29, 51, 175);
-    background-color:rgba(122, 200, 211, 0.979);
+    color:white;
+    background-color:rgb(226, 182, 125);
   
 }
 h3{
-    color:rgb(29, 51, 175);
-    background-color:rgba(122, 200, 211, 0.979);
+    color:white;
+    background-color:rgb(226, 182, 125);
     border-radius:45px;
 }
 li{
-    color:rgb(29, 51, 175);
+    color:white;
 }
 
 p{
-    color:rgb(29, 51, 175);
-    background-color:rgba(122, 200, 211, 0.979);
+    color:white;
+    background-color:rgb(226, 182, 125);
+}
+footer{
+    color: white;
 }
 
-.tituloCom{
-    color: rgb(3, 1, 129);
-    background-color: white;
-}
 
+.colorOpcion{
+    color: rgb(226, 182, 125);
+}
 .imagenNombre{
-    background-color: rgb(101, 152, 219);
+    background-color: white;
     font-size: 35px;
 }
 
 .footer{
-    background-image: linear-gradient(to bottom left,rgb(68, 209, 214),rgba(4, 100, 156, 0.527)) ;
+    background-image: linear-gradient(to bottom left,rgb(228, 189, 139),rgb(226, 182, 125)) ;
 }

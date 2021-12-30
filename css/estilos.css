@@ -60,7 +60,8 @@ p {
 
 .option {
   font-family: 'Oswald', sans-serif;
-  color: #1d33af; }
+  background-color: #e2b67d;
+  color: white; }
 
 .centrado {
   display: flex;
@@ -68,36 +69,41 @@ p {
 
 /*******************COLORES*******************/
 header {
-  color: #1d33af;
-  background-color: rgba(122, 200, 211, 0.979);
-  background-image: linear-gradient(to top, #44d1d6, rgba(4, 100, 156, 0.527)); }
+  color: #e4bd8b;
+  background-color: #e2b67d;
+  background-image: linear-gradient(to top, #e4bd8b, #e2b67d); }
+
+body {
+  background-image: linear-gradient(to bottom left, #fbd29b, #fbd29b); }
 
 h2 {
-  color: #1d33af;
-  background-color: rgba(122, 200, 211, 0.979); }
+  color: white;
+  background-color: #e2b67d; }
 
 h3 {
-  color: #1d33af;
-  background-color: rgba(122, 200, 211, 0.979);
+  color: white;
+  background-color: #e2b67d;
   border-radius: 45px; }
 
 li {
-  color: #1d33af; }
+  color: white; }
 
 p {
-  color: #1d33af;
-  background-color: rgba(122, 200, 211, 0.979); }
+  color: white;
+  background-color: #e2b67d; }
 
-.tituloCom {
-  color: #030181;
-  background-color: white; }
+footer {
+  color: white; }
+
+.colorOpcion {
+  color: #e2b67d; }
 
 .imagenNombre {
-  background-color: #6598db;
+  background-color: white;
   font-size: 35px; }
 
 .footer {
-  background-image: linear-gradient(to bottom left, #44d1d6, rgba(4, 100, 156, 0.527)); }
+  background-image: linear-gradient(to bottom left, #e4bd8b, #e2b67d); }
 
 /*********************METODOLOGIA BEM--BLOQUE-ELEMENTO-MODIFICADOR*********************/
 /****BLOQUE****/
@@ -116,7 +122,6 @@ p {
 
 /*********************ESTILOS GENERALES*********************/
 body {
-  background-image: url(../imagen/logo.png);
   background-position: initial; }
 
 section {
@@ -138,7 +143,8 @@ header {
   height: 145vh; }
 
 .tituloCom {
-  width: 15vh; }
+  width: 15vh;
+  color: white; }
 
 .tituloNegrita {
   font-weight: bold; }
@@ -154,7 +160,7 @@ header {
   text-decoration: none; }
 
 .colorLink {
-  background-color: rgba(122, 200, 211, 0.979);
+  background-color: #e2b67d;
   border-radius: 5px; }
 
 .separacionEsq {
