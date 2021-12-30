@@ -70,15 +70,11 @@ p {
 /*******************COLORES*******************/
 header {
   color: #e4bd8b;
-  background-color: #e2b67d;
-  background-image: linear-gradient(to top, #e4bd8b, #e2b67d); }
-
-body {
-  background-image: linear-gradient(to bottom left, #fbd29b, #fbd29b); }
+  background-color: #e2b67d; }
 
 h2 {
-  color: white;
-  background-color: #e2b67d; }
+  color: #e2b67d;
+  background-color: #f5dec0; }
 
 h3 {
   color: white;
@@ -122,12 +118,14 @@ footer {
 
 /*********************ESTILOS GENERALES*********************/
 body {
-  background-position: initial; }
+  background-image: url(../imagen/fondo.jpeg);
+  background-repeat: initial;
+  background-size: cover; }
 
 section {
   display: grid;
   justify-content: center;
-  grid-template-rows: 2fr 2fr 2fr; }
+  grid-template-rows: 2fr 2fr 2fr 2fr; }
 
 img {
   width: 305px;
@@ -135,8 +133,9 @@ img {
   border-radius: 20px; }
 
 header {
+  position: initial;
   bottom: 0;
-  width: 101%; }
+  width: 100%; }
 
 /*********************CLASES*********************/
 .body {
@@ -144,7 +143,7 @@ header {
 
 .tituloCom {
   width: 15vh;
-  color: white; }
+  color: #e2b67d; }
 
 .tituloNegrita {
   font-weight: bold; }
@@ -164,7 +163,7 @@ header {
   border-radius: 5px; }
 
 .separacionEsq {
-  border-style: ridge; }
+  border-style: solid; }
 
 .textDerecha {
   justify-content: flex-end; }
@@ -191,6 +190,9 @@ header {
 
 .corto {
   width: 550px; }
+
+.centrado {
+  justify-content: center; }
 
 /*$alto:300px;
 

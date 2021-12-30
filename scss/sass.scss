@@ -8,14 +8,16 @@
 
 /*********************ESTILOS GENERALES*********************/
 body{
+    background-image: url(../imagen/fondo.jpeg);
+    background-repeat:initial;
+    background-size: cover;
     
-    background-position:initial;
     
 }
 section{
     display: grid;
     justify-content: center;
-    grid-template-rows: 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr;
 }
 
 img{
@@ -24,8 +26,9 @@ img{
     border-radius: 20px;
 }
 header{
+    position: initial;
     bottom: 0;
-    width: 101%;
+    width: 100%
 } 
 
 /*********************CLASES*********************/
@@ -34,7 +37,7 @@ header{
 }
 .tituloCom{
     width: 15vh;
-    color: white;
+    color: rgb(226, 182, 125);
 }
 .tituloNegrita{
     font-weight: bold;
@@ -59,7 +62,7 @@ header{
 }
 
 .separacionEsq{
-    border-style: ridge;
+    border-style:solid;
 }
 
 .textDerecha{
@@ -93,6 +96,9 @@ header{
 
 .corto{
     width: 550px;
+}
+.centrado{
+    justify-content: center;
 }
 
 /*$alto:300px;
