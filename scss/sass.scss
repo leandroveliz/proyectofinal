@@ -12,13 +12,10 @@ body{
     background-repeat:no-repeat;
     background-size: cover;
     
-    
 }
 section{
     flex-direction: row;
-    justify-content: space-between;
-    align-content:center;
-   
+    justify-content: space-evenly;
 }
 
 img{
@@ -27,15 +24,13 @@ img{
     border-radius: 20px;
 }
 header{
-    position: initial;
+    position:static;
     bottom: 0;
     width: 100%;
 } 
 
 /*********************CLASES*********************/
-.body{
-    height:145vh;
-}
+
 .tituloCom{
     width: 15vh;
     color: rgb(226, 182, 125);
@@ -78,13 +73,14 @@ header{
 
 .menuFlex{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
-    margin: 60px;
+    flex-wrap:wrap;
+    align-content:stretch;
+    margin: 80px;
 }
 
 .separacion{
-        margin: 50px;
+        margin:50px;
 }
 
 
