@@ -119,17 +119,16 @@ footer {
 /*********************ESTILOS GENERALES*********************/
 body {
   background-image: url(../imagen/fondo.jpeg);
-  background-repeat: initial;
-  background-size: cover; }
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
 
 section {
   display: grid;
-  justify-content: center;
-  grid-template-rows: 2fr 2fr 2fr 2fr; }
+  justify-content: space-between; }
 
 img {
-  width: 305px;
-  height: 270px;
+  width: 450px;
+  height: 320px;
   border-radius: 20px; }
 
 header {
@@ -175,11 +174,13 @@ header {
 
 .menuFlex {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
-  justify-content: center; }
+  align-content: center;
+  margin: 70px; }
 
 .separacion {
-  margin: 80px; }
+  margin: 50px; }
 
 .footer {
   grid-area: pie;
