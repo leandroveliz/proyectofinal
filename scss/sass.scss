@@ -17,12 +17,12 @@ body{
 section{
     flex-direction: row;
     justify-content: space-between;
-    
+    align-content:center;
    
 }
 
 img{
-    width:420px;
+    width:400px;
     height:300px;
     border-radius: 20px;
 }
@@ -80,7 +80,6 @@ header{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    align-content: center;
     margin: 60px;
 }
 
